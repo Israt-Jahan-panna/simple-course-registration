@@ -1,0 +1,66 @@
+[
+    {
+      "Image": "course_image_1.jpg",
+      "Name of the Course": "Introduction to C Programming",
+      "Title of the Course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "Credit": "1 hr",
+      "Price": 24000
+    },
+    {
+      "Image": "course_image_2.jpg",
+      "Name of the Course": "Python for Beginners",
+      "Title of the Course": "Learn the fundamentals of Python programming from scratch.",
+      "Credit": "2 hrs",
+      "Price": 28000
+    },
+    {
+      "Image": "course_image_3.jpg",
+      "Name of the Course": "JavaScript Web Development",
+      "Title of the Course": "Build dynamic and interactive web applications using JavaScript.",
+      "Credit": "3 hrs",
+      "Price": 32000
+    },
+    {
+      "Image": "course_image_4.jpg",
+      "Name of the Course": "Java Programming Masterclass",
+      "Title of the Course": "Become a Java expert with hands-on projects and in-depth learning.",
+      "Credit": "4 hrs",
+      "Price": 36000
+    },
+    {
+      "Image": "course_image_5.jpg",
+      "Name of the Course": "Ruby on Rails Web Development",
+      "Title of the Course": "Create web applications with Ruby on Rails framework.",
+      "Credit": "2.5 hrs",
+      "Price": 30000
+    },
+    {
+      "Image": "course_image_6.jpg",
+      "Name of the Course": "SQL Database Fundamentals",
+      "Title of the Course": "Master the basics of SQL for managing databases effectively.",
+      "Credit": "1.5 hrs",
+      "Price": 20000
+    },
+    {
+      "Image": "course_image_7.jpg",
+      "Name of the Course": "C# Game Development",
+      "Title of the Course": "Build exciting games with C# programming and Unity engine.",
+      "Credit": "3.5 hrs",
+      "Price": 38000
+    },
+    {
+      "Image": "course_image_8.jpg",
+      "Name of the Course": "Swift Programming for iOS",
+      "Title of the Course": "Develop iOS apps using Swift language for Apple devices.",
+      "Credit": "2 hrs",
+      "Price": 26000
+    },
+    {
+      "Image": "course_image_9.jpg",
+      "Name of the Course": "Machine Learning with Python",
+      "Title of the Course": "Explore machine learning techniques and algorithms with Python.",
+      "Credit": "4.5 hrs",
+      "Price": 42000
+    }
+  ]
+  

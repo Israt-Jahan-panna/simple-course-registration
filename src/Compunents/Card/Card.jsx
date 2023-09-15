@@ -1,7 +1,13 @@
-/* eslint-disable no-unused-vars */
-import React from 'react';
+
+import { useEffect, useState } from 'react';
 import  './card.css'
 const Card = () => {
+    const [card , setCard] = useState([]);
+    useEffect( () => {
+        fetch('courses.json')
+        .then (res => res.json())
+        .then (data => setCard(data))
+    } , [])
     return (
         <div>
             <h2>Card Compunent </h2>
