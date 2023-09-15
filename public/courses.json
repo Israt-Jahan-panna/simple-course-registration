@@ -2,63 +2,63 @@
     {
       "Image": "https://i.ibb.co/0ssrNm4/Rectangle-2-2.png",
       "Name of the Course": "Introduction to C Programming",
-      "Title of the Course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "Title of the Course": "Learn the fundamentals of C programming, including syntax, data types, and control structures, for building software applications.",
       "Credit": "1 hr",
       "Price": 24000
     },
     {
       "Image": "https://i.ibb.co/ZXrrN5c/Rectangle-2.png",
       "Name of the Course": "Python for Beginners",
-      "Title of the Course": "Learn the fundamentals of Python programming from scratch.",
+      "Title of the Course": " Start your coding journey with Python, a versatile language known for its simplicity and applicability in various domains.",
       "Credit": "2 hrs",
       "Price": 28000
     },
     {
       "Image": "https://i.ibb.co/wcyr2Nx/Rectangle-2-3.png",
       "Name of the Course": "Introduction to Algorithms",
-      "Title of the Course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "Title of the Course": "Explore essential algorithms and problem-solving techniques to enhance your programming and problem-solving skills.",
       "Credit": "3 hrs",
       "Price": 32000
     },
     {
       "Image": "https://i.ibb.co/Zmnd22p/Rectangle-2-4.png",
       "Name of the Course": "Introduction to C++ for DSA",
-      "Title of the Course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "Title of the Course": " Master C++ as a foundation for data structures and algorithms, a key component of competitive programming and software development.",
       "Credit": "4 hrs",
       "Price": 36000
     },
     {
       "Image": "https://i.ibb.co/9ry2Mhc/Rectangle-3.png",
       "Name of the Course": "Basic Data Structures",
-      "Title of the Course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "Title of the Course": "Build a strong foundation in essential data structures like arrays, linked lists, and stacks for efficient programming.",
       "Credit": "2.5 hrs",
       "Price": 30000
     },
     {
       "Image": "https://i.ibb.co/yNq0m3B/Rectangle-2-1.png",
       "Name of the Course": "SQL Database Fundamentals",
-      "Title of the Course": "Master the basics of SQL for managing databases effectively.",
+      "Title of the Course": "Dive into the world of databases, learning how to design, query, and manage data using SQL.",
       "Credit": "1.5 hrs",
       "Price": 20000
     },
     {
       "Image": "https://i.ibb.co/VQtGwKX/Rectangle-2-5.png",
       "Name of the Course": "Software Engineering",
-      "Title of the Course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "Title of the Course": "Gain insights into software development methodologies, best practices, and the complete software development life cycle.",
       "Credit": "3.5 hrs",
       "Price": 38000
     },
     {
       "Image": "https://i.ibb.co/sqnb68j/Rectangle-3-1.png",
       "Name of the Course": "AWS, Cloud Computing",
-      "Title of the Course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "Title of the Course": " Explore Amazon Web Services (AWS) and cloud computing, unlocking the power of scalable and flexible cloud infrastructure.",
       "Credit": "2 hrs",
       "Price": 26000
     },
     {
       "Image": "https://i.ibb.co/r60Bj7T/Rectangle-2-6.png",
       "Name of the Course": "Problem-Solving Part",
-      "Title of the Course": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "Title of the Course": " Develop advanced problem-solving skills through challenging exercises and real-world scenarios, honing your analytical thinking and creativity.",
       "Credit": "4.5 hrs",
       "Price": 42000
     }
