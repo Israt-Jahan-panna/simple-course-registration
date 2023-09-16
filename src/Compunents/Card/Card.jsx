@@ -14,7 +14,7 @@ const Card = ({selectedCourse}) => {
               <h2 className="card-title font-bold text-xl">Course Name</h2>
               {
                 selectedCourse.map((course , index) =>(
-                  <li key ={course.id}>{course.Name}</li>
+                  <h3 key={index}>{index + 1}. {course.Name}</h3>
                 ))
               }
              
