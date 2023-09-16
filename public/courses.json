@@ -28,7 +28,7 @@
       "Image": "https://i.ibb.co/Zmnd22p/Rectangle-2-4.png",
       "Name": "Introduction to C++ for DSA",
       "Title": " Master C++ as a foundation for data structures and algorithms, a key component of competitive programming and software development.",
-      "Credit": 2,
+      "Credit": 1,
       "Price": 36000
     },
     {
@@ -52,7 +52,7 @@
       "Image": "https://i.ibb.co/VQtGwKX/Rectangle-2-5.png",
       "Name": "Software Engineering",
       "Title": "Gain insights into software development methodologies, best practices, and the complete software development life cycle.",
-      "Credit": 2,
+      "Credit": 4,
       "Price": 38000
     },
     {
@@ -60,7 +60,7 @@
       "Image": "https://i.ibb.co/sqnb68j/Rectangle-3-1.png",
       "Name": "AWS, Cloud Computing",
       "Title": " Explore Amazon Web Services (AWS) and cloud computing, unlocking the power of scalable and flexible cloud infrastructure.",
-      "Credit": 2,
+      "Credit": 6,
       "Price": 26000
     },
     {

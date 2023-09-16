@@ -36,6 +36,9 @@ const Home = () => {
       console.log(totalCredits);
       const totalRemaining = 20 - totalCredits ;
       setTotalCredit(totalCredits);
+      if(totalCredits > 20){
+       return alert("Your credit limit is over")
+      }
       setRemaining(totalRemaining);
       setPrice(totalPrice);
       
