@@ -9,6 +9,10 @@ import Card from "../Card/Card";
 const Home = () => {
   const [allCourse, setAllCourse] = useState([]);
   const [selectedCourse ,setSelectedCourse] = useState([]);
+  const [remainng ,setRemaining] = useState(0);
+  const [totalCredits , setTotalCredit] = useState(0);
+  const [totalPrice , setPrice] = useState(0);
+
 
   useEffect(() => {
     fetch("./courses.json")
@@ -17,21 +21,35 @@ const Home = () => {
   }, []);
 
   const handelSelectCourse = (course) => {
+    // setSelectedCourse([...selectedCourse , course]);
     const isExist = selectedCourse.find(item=>item.id== course.id);
+    let totalCredits = course.Credit;
+    let totalPrice = course.Price ;
     if(isExist){
       return alert('This course is already selected');
     }
     else{
+      selectedCourse.forEach((item)=> {
+        totalCredits = totalCredits + item.Credit;
+        totalPrice = totalPrice + item.Price;
+      });
+      console.log(totalCredits);
+      const totalRemaining = 20 - totalCredits ;
+      setTotalCredit(totalCredits);
+      setRemaining(totalRemaining);
+      setPrice(totalPrice);
+      
+      // console.log(totalRemaining);
       setSelectedCourse([...selectedCourse , course])
     }
-    setSelectedCourse([...selectedCourse , course]);
+    
   }
-  console.log(allCourse);
+  // console.log(allCourse);
   return (
     <div className="container mx-auto mt-8">
       <h1 className="text-center mt">Course Registration</h1>
       <div className="container ">
-        <div className="card-container flex justify-around">
+        <div className="card-container flex justify-between">
           <div className="grid grid-cols md:grid-cols-3 gap-2">
             {
               allCourse.map(course => (
@@ -48,7 +66,7 @@ const Home = () => {
               </p>
               <div className="flex justify-between">
                 <p className="flex"><img className="w-4 h-5" src={doller} alt="" />Price:{course.Price}</p>
-                <p className="flex"><img className="w-7 h-7" src={books} alt="" /> Credit:{course.Credit}</p>
+                <p className="flex"><img className="w-7 h-7" src={books} alt="" /> Credit:{course.Credit} hr</p>
               </div>
               <div className="card-actions text-center">
                 <button onClick={() => handelSelectCourse(course)} className="btn btn-primary bg-blue-600 text-white px-24 py-1 my-2 rounded-lg">
@@ -60,7 +78,7 @@ const Home = () => {
               ))
             }
           </div>
-          <Card selectedCourse= {selectedCourse}></Card>
+          <Card selectedCourse= {selectedCourse} remainng={remainng} totalCredits={totalCredits} totalPrice={totalPrice}></Card>
         </div>
       </div>
     </div>
